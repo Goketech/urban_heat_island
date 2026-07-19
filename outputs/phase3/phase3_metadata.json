@@ -1,0 +1,7 @@
+{
+  "impervious_source":"proxy_from_ndbi",
+  "building_density_source":"provided_raster",
+  "extreme_threshold":0.8,
+  "train_end_year":2018,
+  "val_end_year":2021
+}

@@ -1,0 +1,7 @@
+.env
+.venv
+.venv312
+cache
+docs
+*.pyc
+*__pycache__

@@ -1,0 +1,28 @@
+chapter,analysis,metric,value,unit,notes
+Phase 1,Trend Analysis,n_valid_pixels,3308,pixels,Valid pixels for Mann-Kendall and Sen slope
+Phase 1,Trend Analysis,significant_increasing_pixels,2883,pixels,Sen slope > 0 and p < 0.05
+Phase 1,Trend Analysis,significant_decreasing_pixels,0,pixels,Sen slope < 0 and p < 0.05
+Phase 1,Trend Analysis,non_significant_pixels,425,pixels,p >= 0.05
+Phase 1,Trend Analysis,median_sen_slope,0.0668526229,degC_per_year,Median Sen slope across valid pixels
+Phase 1,Trend Analysis,mean_sen_slope,0.0765173001,degC_per_year,Mean Sen slope across valid pixels
+Phase 1,Trend Analysis,median_tau,0.4866666667,unitless,Kendall tau median
+Phase 1,Correlation,NDBI_LST_pearson_r,0.9125962008,unitless,Strong positive association
+Phase 1,Correlation,NDBI_LST_spearman_rho,0.9045336499,unitless,Monotonic positive association
+Phase 1,Correlation,NDVI_LST_pearson_r,-0.7660261994,unitless,Strong negative association
+Phase 1,Correlation,NDVI_LST_spearman_rho,-0.6642779609,unitless,Monotonic negative association
+Phase 1,Quadrant,critical_uhi_core_pct,42.9262394196,percent,High NDBI and High LST quadrant
+Phase 2,Model Comparison,MLR_test_RMSE,1.1282879543,degC,Test split performance
+Phase 2,Model Comparison,MLR_test_MAE,0.8467840305,degC,Test split performance
+Phase 2,Model Comparison,MLR_test_R2,0.7654767048,unitless,Test split performance
+Phase 2,Model Comparison,CNNLSTM_test_RMSE,0.9108812776,degC,Test split performance
+Phase 2,Model Comparison,CNNLSTM_test_MAE,0.5898640156,degC,Test split performance
+Phase 2,Model Comparison,CNNLSTM_test_R2,0.9285485148,unitless,Test split performance
+Phase 2,Forecast,MLR_2030_mean_LST,29.7687410665,degC,Forecast summary
+Phase 2,Forecast,MLR_2040_mean_LST,30.2845336038,degC,Forecast summary
+Phase 2,Forecast,CNNLSTM_2030_mean_LST,27.3781318665,degC,Forecast summary
+Phase 2,Forecast,CNNLSTM_2040_mean_LST,27.4136428833,degC,Forecast summary
+Phase 3,TVDI Model,XGBoost_test_RMSE,0.1274813011,unitless_tvdi,Test split performance
+Phase 3,TVDI Model,XGBoost_test_MAE,0.1041369869,unitless_tvdi,Test split performance
+Phase 3,TVDI Model,XGBoost_test_R2,0.8498272606,unitless,Test split performance
+Phase 3,Extreme Stress Attribution,LST_contribution_pct_extreme,92.976326,percent,TVDI >= 0.8 subset
+Phase 3,Extreme Stress Attribution,NDBI_contribution_pct_extreme,4.2939,percent,TVDI >= 0.8 subset

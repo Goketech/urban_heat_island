@@ -1,0 +1,5 @@
+feature,mean_abs_shap_extreme,contribution_pct_extreme
+lst,0.41365704,92.976326
+ndbi,0.019103808,4.2939
+impervious_fraction,0.00729681,1.64008
+building_density,0.004848125,1.0896971
