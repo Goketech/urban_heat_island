@@ -1,0 +1,17 @@
+{
+  "scenario_year": 2024,
+  "stress_threshold": 0.6,
+  "priority_zone_definition": "NDBI >= Phase 1 median NDBI threshold AND TVDI >= stress_threshold",
+  "ndbi_threshold_used": -0.1320221945643425,
+  "priority_zone_pixel_count": 1431,
+  "delta_ndvi_greening": 0.15,
+  "lst_offset_pavement_degC": 2.0,
+  "lst_ndvi_slope_fitted_this_year": -6.531821669633778,
+  "lst_ndvi_intercept_fitted_this_year": 31.767204248052487,
+  "pixel_area_km2": 1.0,
+  "assumption_sources": {
+    "delta_ndvi_greening": "Scenario assumption (feasible urban canopy/green-infrastructure expansion); not a measured intervention outcome.",
+    "lst_offset_pavement": "Literature-informed (Vizzari, Leiva-Padilla & Hu, 2025, IntechOpen, DOI 10.5772/intechopen.1012755; general cool-pavement field literature reports ~1.5-4 degC surface cooling); not measured in Lagos."
+  },
+  "caveat": "This is a scenario simulation layered on the study's own fitted TVDI edges, not a physically-resolved microclimate model and not field-validated for Lagos."
+}

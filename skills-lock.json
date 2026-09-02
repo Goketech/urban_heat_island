@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "use-simple-english": {
+      "source": "kleenpulse/use-simple-english",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "fd71aa7e2a39b9bc07635c5ba9cf81737a099718d21265645c99dfddc86e53cf"
+    }
+  }
+}

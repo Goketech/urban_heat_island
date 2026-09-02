@@ -1,0 +1,5 @@
+scenario,severe_extreme_stress_pixels,severe_extreme_stress_km2,pct_reduction_vs_baseline,pct_points_combined_over_best_single
+Baseline (observed),1720,1720.0,0.0,
+Scenario A: Greening only,1584,1584.0,7.906976744186046,
+Scenario B: Reflective pavement only,851,851.0,50.52325581395349,
+Scenario C: Combined,703,703.0,59.127906976744185,8.604651162790695
